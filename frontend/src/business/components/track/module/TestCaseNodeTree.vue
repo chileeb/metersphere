@@ -183,28 +183,19 @@ export default {
     },
     list(caseCondition) {
       if (this.projectId) {
-        if (caseCondition) {
-          this.result = getTestCaseNodesByCaseFilter(this.projectId, caseCondition, data => {
-            this.handleData(data);
+        this.result = getTestCaseNodesByCaseFilter(this.projectId, caseCondition, data => {
+          this.treeNodes = data;
+          this.treeNodes.forEach(node => {
+            node.name = node.name === '未规划用例' ? this.$t('api_test.unplanned_case') : node.name
+            buildTree(node, {path: ''});
           });
-        } else {
-          this.result = getTestCaseNodes(this.projectId, data => {
-            this.handleData(data);
-          });
-        }
+          this.setModuleOptions();
+          if (this.$refs.nodeTree) {
+            this.$refs.nodeTree.filter(this.condition.filterText);
+          }
+          this.setCurrentKey();
+        });
       }
-    },
-    handleData(data) {
-      this.treeNodes = data;
-      this.treeNodes.forEach(node => {
-        node.name = node.name === '未规划用例' ? this.$t('api_test.unplanned_case') : node.name
-        buildTree(node, {path: ''});
-      });
-      this.setModuleOptions();
-      if (this.$refs.nodeTree) {
-        this.$refs.nodeTree.filter(this.condition.filterText);
-      }
-      this.setCurrentKey();
     },
     setCurrentKey() {
       if (this.$refs.nodeTree) {

@@ -813,6 +813,7 @@ export default {
       // 添加搜索条件时，当前页设置成第一页
       this.page.currentPage = 1;
       this.initTableData();
+      this.$emit('search');
     },
     buildPagePath(path) {
       return path + "/" + this.page.currentPage + "/" + this.page.pageSize;
@@ -1116,7 +1117,6 @@ export default {
           this.$warning(this.$t('test_track.case.public_warning'));
         }
       });
-
     },
     handleDeleteBatchToPublic() {
       this.$alert(this.$t('test_track.case.delete_confirm') + "？", '', {
