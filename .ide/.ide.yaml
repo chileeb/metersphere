@@ -1,0 +1,35 @@
+version: smartide/v0.2
+orchestrator:
+  type: docker-compose
+  version: 3
+workspace:
+  dev-container:
+    service-name: metersphere-dev
+    ports:
+      tools-webide-idea: 6800
+      tools-ssh: 6822
+      apps-metersphere: 8080
+    ide-type: jb-projector
+    volumes:
+      git-config: true
+      ssh-key: true
+  services:
+    metersphere-dev:
+      image: registry.cn-hangzhou.aliyuncs.com/smartide/smartide-java-v2-jetbrains-idea-vmlc:latest
+      runtime: sysbox-runc
+      hostname: dev
+      restart: always
+      environment:
+        POSTGRES_HOST_AUTH_METHOD: trust
+        ROOT_PASSWORD: root123
+        LOCAL_USER_PASSWORD: root123
+      volumes:
+        - .:/home/project
+        - ./.ide/opt/metersphere:/opt/metersphere
+        - $HOME/.m2/repository:/home/smartide/.m2/repository
+      ports:
+        - 8080:8080
+        - 6822:22
+        - 6800:8887
+      networks:
+        - smartide-network

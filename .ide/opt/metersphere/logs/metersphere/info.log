@@ -1,0 +1,440 @@
+2022-06-28 08:47:24,264 [main] INFO  io.metersphere.Application ? - Starting Application using Java 11.0.13 on cb991ae4828f with PID 20210 (/home/project/backend/target/classes started by smartide in /home/project)
+2022-06-28 08:47:24,594 [main] INFO  io.metersphere.Application ? - No active profile set, falling back to 1 default profile: "default"
+2022-06-28 08:47:24,800 [background-preinit] INFO  o.h.validator.internal.util.Version ? - HV000001: Hibernate Validator 6.2.3.Final
+2022-06-28 08:49:19,446 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-28 08:49:19,531 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ? - Bootstrapping Spring Data LDAP repositories in DEFAULT mode.
+2022-06-28 08:49:40,785 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 201 - Finished Spring Data repository scanning in 21010 ms. Found 0 LDAP repository interfaces.
+2022-06-28 08:49:41,169 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-28 08:49:41,194 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ? - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-28 08:49:49,555 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 201 - Finished Spring Data repository scanning in 8147 ms. Found 0 Redis repository interfaces.
+2022-06-28 08:50:09,991 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'shiroConfig' of type [io.metersphere.config.ShiroConfig$$EnhancerBySpringCGLIB$$3918f561] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 08:50:12,127 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ? - Bean 'memoryConstrainedCacheManager' of type [org.apache.shiro.cache.MemoryConstrainedCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:07:47,190 [main] INFO  io.metersphere.Application ? - Starting Application using Java 11.0.13 on cb991ae4828f with PID 563 (/home/project/backend/target/classes started by smartide in /home/project)
+2022-06-28 09:07:47,227 [main] INFO  io.metersphere.Application ? - No active profile set, falling back to 1 default profile: "default"
+2022-06-28 09:07:47,316 [background-preinit] INFO  o.h.validator.internal.util.Version ? - HV000001: Hibernate Validator 6.2.3.Final
+2022-06-28 09:08:14,972 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-28 09:08:15,008 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ? - Bootstrapping Spring Data LDAP repositories in DEFAULT mode.
+2022-06-28 09:08:19,488 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 201 - Finished Spring Data repository scanning in 4415 ms. Found 0 LDAP repository interfaces.
+2022-06-28 09:08:19,590 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-28 09:08:19,602 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-28 09:08:19,878 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 201 - Finished Spring Data repository scanning in 196 ms. Found 0 Redis repository interfaces.
+2022-06-28 09:08:23,284 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'shiroConfig' of type [io.metersphere.config.ShiroConfig$$EnhancerBySpringCGLIB$$eb0b7f16] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:08:24,397 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ? - Bean 'memoryConstrainedCacheManager' of type [org.apache.shiro.cache.MemoryConstrainedCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:08:25,749 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'sessionManager' of type [io.metersphere.security.CustomSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:08:26,423 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'modularRealmAuthenticator' of type [io.metersphere.security.UserModularRealmAuthenticator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:08:26,454 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:08:26,694 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'getAuthorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:08:30,798 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'databaseConfig' of type [io.metersphere.config.DatabaseConfig$$EnhancerBySpringCGLIB$$da59ea38] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:08:30,955 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ? - Bean 'org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration' of type [org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:08:30,977 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'stringOrNumberMigrationVersionConverter' of type [org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration$StringOrNumberToMigrationVersionConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:08:31,163 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ? - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:08:31,433 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:08:31,633 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ? - Bean 'quartz-com.fit2cloud.autoconfigure.QuartzProperties' of type [com.fit2cloud.autoconfigure.QuartzProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:08:31,745 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'quartzDataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:08:31,778 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'com.fit2cloud.autoconfigure.QuartzAutoConfiguration' of type [com.fit2cloud.autoconfigure.QuartzAutoConfiguration$$EnhancerBySpringCGLIB$$157381fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:08:31,868 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration$FlywayConfiguration' of type [org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration$FlywayConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:08:31,940 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'spring.flyway-org.springframework.boot.autoconfigure.flyway.FlywayProperties' of type [org.springframework.boot.autoconfigure.flyway.FlywayProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:08:32,449 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'flyway' of type [org.flywaydb.core.Flyway] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:08:32,839 [main] WARN  com.zaxxer.hikari.HikariConfig ? - DatebookHikariCP - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2022-06-28 09:08:32,847 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - DatebookHikariCP - Starting...
+2022-06-28 09:08:36,512 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - DatebookHikariCP - Start completed.
+2022-06-28 09:08:36,877 [main] INFO  o.f.c.i.license.VersionPrinter 44 - Flyway Community Edition 7.15.0 by Redgate
+2022-06-28 09:08:36,883 [main] INFO  o.f.c.i.d.base.BaseDatabaseType 44 - Database: jdbc:mysql://mysql:3306/metersphere (MySQL 5.7)
+2022-06-28 09:08:37,543 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory 44 - Creating Schema History table `metersphere`.`metersphere_version` ...
+2022-06-28 09:08:39,210 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Current version of schema `metersphere`: << Empty Schema >>
+2022-06-28 09:08:39,234 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "1 - init"
+2022-06-28 09:08:39,250 [main] INFO  o.f.c.i.s.DefaultSqlScriptExecutor ? - +-------------+
+| database()  |
++-------------+
+| metersphere |
++-------------+
+
+2022-06-28 09:08:39,459 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "2 - metersphere ddl"
+2022-06-28 09:08:40,182 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "3 - init data"
+2022-06-28 09:08:40,247 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "4 - user key"
+2022-06-28 09:08:40,334 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "5 - schedule"
+2022-06-28 09:08:40,777 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "6 - api test environment"
+2022-06-28 09:08:40,836 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "7 - modify user table"
+2022-06-28 09:08:40,965 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "8 - modify test case"
+2022-06-28 09:08:41,063 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor 48 - DB: PROCEDURE metersphere.test_cursor does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:41,103 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "9 - modify report result"
+2022-06-28 09:08:41,165 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "10 - modify schedule"
+2022-06-28 09:08:41,281 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "11 - add test case"
+2022-06-28 09:08:41,336 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "12 - modify load test report"
+2022-06-28 09:08:41,421 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "13 - service integration"
+2022-06-28 09:08:41,549 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "14 - modify project"
+2022-06-28 09:08:41,690 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "15 - add quota"
+2022-06-28 09:08:41,768 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "16 - modify test case path"
+2022-06-28 09:08:41,851 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "17 - test plan project"
+2022-06-28 09:08:41,909 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "18 - notice"
+2022-06-28 09:08:41,965 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "19 - add api test environment"
+2022-06-28 09:08:42,042 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "20 - add license"
+2022-06-28 09:08:42,093 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "21 - modify test plan"
+2022-06-28 09:08:42,155 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "22 - modify api test environment"
+2022-06-28 09:08:42,273 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "23 - test case review"
+2022-06-28 09:08:42,398 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "24 - modify test plan"
+2022-06-28 09:08:42,543 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "25 - add base system properties"
+2022-06-28 09:08:42,595 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "26 - modify notice"
+2022-06-28 09:08:42,695 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "27 - refactor notice"
+2022-06-28 09:08:42,761 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "28 - modify test case"
+2022-06-28 09:08:42,804 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "29 - test case matainer"
+2022-06-28 09:08:42,834 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "30 - test case file"
+2022-06-28 09:08:42,890 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "31 - message task"
+2022-06-28 09:08:42,941 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "32 - test case prerequisite"
+2022-06-28 09:08:42,982 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "33 - modify message task"
+2022-06-28 09:08:43,052 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "34 - api test jar"
+2022-06-28 09:08:43,103 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "35 - modify test plan"
+2022-06-28 09:08:43,161 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "36 - add messag task"
+2022-06-28 09:08:43,215 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "37 - add plan index"
+2022-06-28 09:08:43,292 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "38 - modify message task test id"
+2022-06-28 09:08:43,351 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "39 - modify message task create time"
+2022-06-28 09:08:43,400 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "40 - test case node add pos"
+2022-06-28 09:08:43,430 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: PROCEDURE metersphere.pos_cursor does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:43,500 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "41 - set ui"
+2022-06-28 09:08:43,539 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "42 - modify load test report"
+2022-06-28 09:08:43,599 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "43 - add role"
+2022-06-28 09:08:43,644 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "44 - project add zentao id"
+2022-06-28 09:08:43,753 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "45 - modify issues"
+2022-06-28 09:08:43,829 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "47 - api data view"
+2022-06-28 09:08:43,880 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "48 - notice template"
+2022-06-28 09:08:44,021 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "49 - user add project id"
+2022-06-28 09:08:44,110 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "50 - api scenario"
+2022-06-28 09:08:44,271 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "51 - api definition"
+2022-06-28 09:08:44,439 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "52 - test plan api"
+2022-06-28 09:08:44,545 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "53 - modify api scenario"
+2022-06-28 09:08:44,587 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "54 - test resource pool image"
+2022-06-28 09:08:44,679 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "55 - modify api scenario report"
+2022-06-28 09:08:44,812 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "56 - modify api module pos"
+2022-06-28 09:08:44,853 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "57 - init api definition num"
+2022-06-28 09:08:44,953 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor 48 - DB: PROCEDURE metersphere.test_cursor does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:44,963 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: PROCEDURE metersphere.test_cursor1 does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:44,999 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "58 - add index"
+2022-06-28 09:08:45,085 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "59 - test plan add project id"
+2022-06-28 09:08:45,120 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor 48 - DB: PROCEDURE metersphere.test_cursor does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:45,150 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "60 - modify project add repeatable"
+2022-06-28 09:08:45,256 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "61 - modify test case name"
+2022-06-28 09:08:45,295 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "62 - add test plan load case"
+2022-06-28 09:08:45,335 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "63 - add tag"
+2022-06-28 09:08:45,442 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "64 - auth source"
+2022-06-28 09:08:45,489 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "65 - init load test num"
+2022-06-28 09:08:45,515 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor 48 - DB: PROCEDURE metersphere.test_cursor does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:45,559 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "66 - init test plan report"
+2022-06-28 09:08:45,624 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "67 - case review add project id"
+2022-06-28 09:08:45,653 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: PROCEDURE metersphere.test_cursor does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:45,684 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "68 - modify api test case"
+2022-06-28 09:08:45,780 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "69 - swagger url project"
+2022-06-28 09:08:45,843 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "70 - modify test plan report"
+2022-06-28 09:08:45,903 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "71 - modify scenario"
+2022-06-28 09:08:45,966 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "72 - modify swagger url project"
+2022-06-28 09:08:46,084 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "73 - modify test plan api scenario id"
+2022-06-28 09:08:46,169 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "74 - modify schedule message task"
+2022-06-28 09:08:46,252 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "75 - modify schedule message task test id"
+2022-06-28 09:08:46,343 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "77 - modify schedule test id"
+2022-06-28 09:08:46,431 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "78 - v1.8 release"
+2022-06-28 09:08:47,115 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "79 - v1.8.1 release"
+2022-06-28 09:08:47,194 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "80 - v1.9.0 release"
+2022-06-28 09:08:48,043 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "81 - v1.9.1 release"
+2022-06-28 09:08:48,092 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "82 - v1.9.2 release"
+2022-06-28 09:08:48,232 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "83 - v1.9.3 release"
+2022-06-28 09:08:48,411 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "84 - v1.10 release"
+2022-06-28 09:08:49,495 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor 48 - DB: PROCEDURE metersphere.test_cursor does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:49,595 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "85 - v1.10 permission refactor"
+2022-06-28 09:08:49,999 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "86 - v1.10.1 release"
+2022-06-28 09:08:50,062 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: PROCEDURE metersphere.project_systemid does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:50,285 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "87 - v1.10.2 release"
+2022-06-28 09:08:50,375 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "88 - v1.10.3 release"
+2022-06-28 09:08:50,474 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "89 - v1.10.4 release"
+2022-06-28 09:08:50,710 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "90 - v1.10.5 release"
+2022-06-28 09:08:50,760 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "91 - v1.11 release"
+2022-06-28 09:08:50,762 [main] INFO  o.f.c.i.s.DefaultSqlScriptExecutor ? - +-------------+
+| DATABASE()  |
++-------------+
+| metersphere |
++-------------+
+
+2022-06-28 09:08:50,808 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "92 - v1.11.2 release"
+2022-06-28 09:08:51,573 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "93 - v1.12 release"
+2022-06-28 09:08:51,976 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor 48 - DB: PROCEDURE metersphere.set_notice does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:52,146 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "94 - v1.12.1 release"
+2022-06-28 09:08:52,180 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "95 - v1.13 release"
+2022-06-28 09:08:52,527 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: PROCEDURE metersphere.schema_change_api does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:52,589 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "96 - v1.13.1  release"
+2022-06-28 09:08:52,742 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "97 - v1.14 release"
+2022-06-28 09:08:52,775 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor 48 - DB: PROCEDURE metersphere.test_cursor does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:52,788 [main] INFO  o.f.c.i.s.DefaultSqlScriptExecutor 44 - +------+
+| temp |
++------+
+| 1    |
++------+
+
+2022-06-28 09:08:52,878 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor 48 - DB: PROCEDURE metersphere.test_cursor does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:53,106 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor 48 - DB: PROCEDURE metersphere.test_cursor does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:53,121 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor 48 - DB: PROCEDURE metersphere.test_cursor does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:53,350 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: Unknown table 'metersphere.test_plan_follow' (SQL State: 42S02 - Error Code: 1051)
+2022-06-28 09:08:53,406 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor 48 - DB: Unknown table 'metersphere.test_case_review_follow' (SQL State: 42S02 - Error Code: 1051)
+2022-06-28 09:08:53,804 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "98 - v1.14.1 release"
+2022-06-28 09:08:54,070 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "99 - v1.15 release"
+2022-06-28 09:08:54,382 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "100 - v1.15.2 release"
+2022-06-28 09:08:54,407 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "101 - v1.15.3 release"
+2022-06-28 09:08:54,451 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "102 - v1.15.5 release"
+2022-06-28 09:08:54,499 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "103 - v1.16 release"
+2022-06-28 09:08:54,907 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "104 - v1.16.3 release"
+2022-06-28 09:08:55,005 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "105 - v1.16.5 release"
+2022-06-28 09:08:55,152 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "106 - v1.17 release"
+2022-06-28 09:08:56,359 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "107 - v1.17.2 release"
+2022-06-28 09:08:56,412 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "108 - v1.18 release"
+2022-06-28 09:08:56,479 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor 48 - DB: PROCEDURE metersphere.test_personal does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:56,584 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: PROCEDURE metersphere.project_appl does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:56,721 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "109 - v1.18.1 release"
+2022-06-28 09:08:56,735 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: Duplicate index 'projectIdIndex' defined on the table 'metersphere.api_definition_exec_result'. This is deprecated and will be disallowed in a future release. (SQL State: HY000 - Error Code: 1831)
+2022-06-28 09:08:56,829 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "110 - v1.19 release"
+2022-06-28 09:08:56,832 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor 48 - DB: PROCEDURE metersphere.project_api_appl does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:56,925 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor 48 - DB: PROCEDURE metersphere.message_task_ws does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:57,210 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor 48 - DB: PROCEDURE metersphere.custom_field_ws does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:57,224 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor 48 - DB: PROCEDURE metersphere.case_template_ws does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:57,239 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: PROCEDURE metersphere.issue_template_ws does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:57,248 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor 48 - DB: Unknown table 'metersphere.custom_field_template_bak' (SQL State: 42S02 - Error Code: 1051)
+2022-06-28 09:08:57,297 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: PROCEDURE metersphere.custom_field_template_ws does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:58,412 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "111 - v1.19.1 release"
+2022-06-28 09:08:58,416 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: PROCEDURE metersphere.schema_change_api does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:58,428 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: PROCEDURE metersphere.schema_change_api_one does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:58,432 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: PROCEDURE metersphere.schema_change_scenario does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:58,445 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor 48 - DB: PROCEDURE metersphere.schema_change_scenario_one does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:58,459 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: PROCEDURE metersphere.schema_change_load does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:58,475 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: PROCEDURE metersphere.schema_change_load_one does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:58,481 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: PROCEDURE metersphere.schema_change_report does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:58,495 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: PROCEDURE metersphere.schema_change_report_one does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:58,501 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: PROCEDURE metersphere.schema_change_issue does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:58,524 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor 48 - DB: PROCEDURE metersphere.schema_change does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:58,579 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "112 - v1.19.2 release"
+2022-06-28 09:08:58,639 [main] INFO  o.f.core.internal.command.DbMigrate 44 - Migrating schema `metersphere` to version "113 - v1.19.3 release"
+2022-06-28 09:08:58,677 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: Duplicate index 'test_plan_test_case_plan_id_index' defined on the table 'metersphere.test_plan_test_case'. This is deprecated and will be disallowed in a future release. (SQL State: HY000 - Error Code: 1831)
+2022-06-28 09:08:58,766 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: Duplicate index 'report_id_index' defined on the table 'metersphere.api_scenario_report_result'. This is deprecated and will be disallowed in a future release. (SQL State: HY000 - Error Code: 1831)
+2022-06-28 09:08:58,803 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "115 - 1.20  release"
+2022-06-28 09:08:59,201 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: PROCEDURE metersphere.schema_change_plan does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:59,224 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: PROCEDURE metersphere.schema_change_rela_one does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:59,247 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: PROCEDURE metersphere.schema_change_rela_two does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:59,418 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "116 - 1.20.2  release"
+2022-06-28 09:08:59,579 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "117 - 1.20.3  release"
+2022-06-28 09:08:59,625 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "118 - 1.20.4  release"
+2022-06-28 09:08:59,663 [main] WARN  o.f.c.i.s.DefaultSqlScriptExecutor ? - DB: PROCEDURE metersphere.load_test_report_file_add does not exist (SQL State: 42000 - Error Code: 1305)
+2022-06-28 09:08:59,704 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "119 - 1.20.5  release"
+2022-06-28 09:08:59,776 [main] INFO  o.f.core.internal.command.DbMigrate ? - Migrating schema `metersphere` to version "120 - 1.20.6  release"
+2022-06-28 09:09:00,052 [main] INFO  o.f.core.internal.command.DbMigrate ? - Successfully applied 117 migrations to schema `metersphere`, now at version v120 (execution time 00:22.187s)
+2022-06-28 09:09:00,107 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ? - Bean 'flywayInitializer' of type [org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:09:00,116 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ? - Bean 'org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration' of type [org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:09:00,148 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ? - Bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties' of type [org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:09:00,219 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ? - Bean 'dataSourceScriptDatabaseInitializer' of type [org.springframework.boot.autoconfigure.sql.init.SqlDataSourceScriptDatabaseInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:09:00,766 [main] INFO  org.quartz.impl.StdSchedulerFactory ? - Using default implementation for ThreadExecutor
+2022-06-28 09:09:00,796 [main] INFO  org.quartz.simpl.SimpleThreadPool ? - Job execution threads will use class loader of thread: main
+2022-06-28 09:09:01,211 [main] INFO  o.quartz.core.SchedulerSignalerImpl 61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-06-28 09:09:01,214 [main] INFO  org.quartz.core.QuartzScheduler 229 - Quartz Scheduler v.2.3.2 created.
+2022-06-28 09:09:01,289 [main] WARN  com.zaxxer.hikari.HikariConfig 1092 - DatebookHikariCP - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2022-06-28 09:09:01,291 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - DatebookHikariCP - Starting...
+2022-06-28 09:09:01,313 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - DatebookHikariCP - Start completed.
+2022-06-28 09:09:01,322 [main] INFO  o.s.s.quartz.LocalDataSourceJobStore 672 - Using db table-based data access locking (synchronization).
+2022-06-28 09:09:01,345 [main] INFO  o.s.s.quartz.LocalDataSourceJobStore ? - JobStoreCMT initialized.
+2022-06-28 09:09:01,350 [main] INFO  org.quartz.core.QuartzScheduler ? - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'clusterScheduler' with instanceId 'cb991ae4828f1656378540791'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 60 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2022-06-28 09:09:01,351 [main] INFO  org.quartz.impl.StdSchedulerFactory 1374 - Quartz scheduler 'clusterScheduler' initialized from an externally provided properties instance.
+2022-06-28 09:09:01,351 [main] INFO  org.quartz.impl.StdSchedulerFactory 1378 - Quartz scheduler version: 2.3.2
+2022-06-28 09:09:01,368 [main] INFO  org.quartz.core.QuartzScheduler 2293 - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@49e92724
+2022-06-28 09:09:01,369 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'clusterSchedulerFactoryBean' of type [org.springframework.scheduling.quartz.SchedulerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:09:01,581 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'clusterSchedulerFactoryBean' of type [org.quartz.impl.StdScheduler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:09:01,695 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ? - Bean 'quartzTimeZone' of type [sun.util.calendar.ZoneInfo] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:09:01,785 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ? - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$859d999a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:09:01,817 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-28 09:09:05,394 [main] WARN  io.undertow.websockets.jsr 68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-06-28 09:09:05,631 [main] INFO  io.undertow.servlet 382 - Initializing Spring embedded WebApplicationContext
+2022-06-28 09:09:05,632 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 290 - Root WebApplicationContext: initialization completed in 75572 ms
+2022-06-28 09:09:29,386 [main] INFO  org.redisson.Version 41 - Redisson 3.17.0
+2022-06-28 09:09:31,021 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'APITestController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'apiDefinitionService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'apiExecuteService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JMeterService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redissonConnectionFactory' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redissonConnectionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
+2022-06-28 09:09:31,032 [main] INFO  o.s.s.quartz.SchedulerFactoryBean 847 - Shutting down Quartz Scheduler
+2022-06-28 09:09:31,033 [main] INFO  org.quartz.core.QuartzScheduler 666 - Scheduler clusterScheduler_$_cb991ae4828f1656378540791 shutting down.
+2022-06-28 09:09:31,033 [main] INFO  org.quartz.core.QuartzScheduler 585 - Scheduler clusterScheduler_$_cb991ae4828f1656378540791 paused.
+2022-06-28 09:09:31,039 [main] INFO  org.quartz.core.QuartzScheduler 740 - Scheduler clusterScheduler_$_cb991ae4828f1656378540791 shutdown complete.
+2022-06-28 09:09:31,040 [main] INFO  com.zaxxer.hikari.HikariDataSource 350 - DatebookHikariCP - Shutdown initiated...
+2022-06-28 09:09:31,205 [main] INFO  com.zaxxer.hikari.HikariDataSource ? - DatebookHikariCP - Shutdown completed.
+2022-06-28 09:09:31,211 [main] INFO  com.zaxxer.hikari.HikariDataSource 350 - DatebookHikariCP - Shutdown initiated...
+2022-06-28 09:09:31,381 [main] INFO  com.zaxxer.hikari.HikariDataSource 352 - DatebookHikariCP - Shutdown completed.
+2022-06-28 09:09:31,482 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener ? - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-28 09:09:31,662 [main] ERROR o.s.boot.SpringApplication ? - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'APITestController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'apiDefinitionService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'apiExecuteService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JMeterService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redissonConnectionFactory' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redissonConnectionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at io.metersphere.Application.main(Application.java:32)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'apiDefinitionService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'apiExecuteService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JMeterService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redissonConnectionFactory' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redissonConnectionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 17 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'apiExecuteService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JMeterService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redissonConnectionFactory' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redissonConnectionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 31 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JMeterService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redissonConnectionFactory' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redissonConnectionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 45 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redissonConnectionFactory' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redissonConnectionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 61 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redissonConnectionFactory' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redissonConnectionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 77 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 91 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 105 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:153)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at org.redisson.connection.pool.ConnectionPool.promiseFailure(ConnectionPool.java:310)
+	at org.redisson.connection.pool.ConnectionPool.lambda$createConnection$3(ConnectionPool.java:276)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at org.redisson.client.RedisClient$1$2.run(RedisClient.java:235)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask$$$capture(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:6379
+	at java.base/java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:367)
+	at java.base/java.util.concurrent.CompletableFuture.completeRelay(CompletableFuture.java:376)
+	at java.base/java.util.concurrent.CompletableFuture$UniRelay.tryFire(CompletableFuture.java:1019)
+	... 13 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)

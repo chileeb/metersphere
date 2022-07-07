@@ -1,0 +1,358 @@
+2022-06-14 10:08:23,666 [main] INFO  io.metersphere.streaming.Application ? - Starting Application using Java 11.0.14 on d4331252f303 with PID 1 (/app started by root in /deployments)
+2022-06-14 10:08:23,742 [main] INFO  io.metersphere.streaming.Application ? - No active profile set, falling back to 1 default profile: "default"
+2022-06-14 10:08:29,818 [main] INFO  org.eclipse.jetty.util.log 170 - Logging initialized @9589ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-06-14 10:08:30,581 [main] INFO  o.s.b.w.e.j.JettyServletWebServerFactory ? - Server initialized with port: 8084
+2022-06-14 10:08:30,604 [main] INFO  org.eclipse.jetty.server.Server 375 - jetty-9.4.46.v20220331; built: 2022-03-31T16:38:08.030Z; git: bc17a0369a11ecf40bb92c839b9ef0a8ac50ea18; jvm 11.0.14+9-alpine-r0
+2022-06-14 10:08:30,857 [main] INFO  o.e.j.s.h.ContextHandler.application ? - Initializing Spring embedded WebApplicationContext
+2022-06-14 10:08:30,858 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 290 - Root WebApplicationContext: initialization completed in 6232 ms
+2022-06-14 10:08:33,153 [main] INFO  org.eclipse.jetty.server.session 334 - DefaultSessionIdManager workerName=node0
+2022-06-14 10:08:33,155 [main] INFO  org.eclipse.jetty.server.session 339 - No SessionScavenger set, using defaults
+2022-06-14 10:08:33,158 [main] INFO  org.eclipse.jetty.server.session 132 - node0 Scavenging every 600000ms
+2022-06-14 10:08:33,187 [main] INFO  o.e.j.server.handler.ContextHandler 921 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@f03ee8f{application,/,[file:///tmp/jetty-docbase.8084.7616578234140576446/],AVAILABLE}
+2022-06-14 10:08:33,189 [main] INFO  org.eclipse.jetty.server.Server 415 - Started @12967ms
+2022-06-14 10:08:33,481 [main] INFO  i.m.s.service.TestResultService ? - Method[<clinit>][Temp dir: /tmp]
+2022-06-14 10:08:38,433 [main] WARN  o.s.b.a.g.t.GroovyTemplateAutoConfiguration 86 - Cannot find template location: classpath:/templates/ (please add some templates, check your Groovy configuration, or set spring.groovy.template.check-template-location=false)
+2022-06-14 10:08:40,447 [main] INFO  o.a.k.c.admin.AdminClientConfig 376 - AdminClientConfig values: 
+	bootstrap.servers = [10000-10010:10000-10010]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2022-06-14 10:08:40,567 [main] ERROR o.s.kafka.core.KafkaAdmin 149 - Could not create admin
+org.apache.kafka.common.KafkaException: Failed to create new KafkaAdminClient
+	at org.apache.kafka.clients.admin.KafkaAdminClient.createInternal(KafkaAdminClient.java:537)
+	at org.apache.kafka.clients.admin.Admin.create(Admin.java:143)
+	at org.apache.kafka.clients.admin.AdminClient.create(AdminClient.java:49)
+	at org.springframework.kafka.core.KafkaAdmin.createAdmin(KafkaAdmin.java:228)
+	at org.springframework.kafka.core.KafkaAdmin.initialize(KafkaAdmin.java:166)
+	at org.springframework.kafka.core.KafkaAdmin.afterSingletonsInstantiated(KafkaAdmin.java:145)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:972)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at io.metersphere.streaming.Application.main(Application.java:23)
+Caused by: org.apache.kafka.common.config.ConfigException: Invalid url in bootstrap.servers: 10000-10010:10000-10010
+	at org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses(ClientUtils.java:59)
+	at org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses(ClientUtils.java:48)
+	at org.apache.kafka.clients.admin.KafkaAdminClient.createInternal(KafkaAdminClient.java:489)
+	... 15 common frames omitted
+2022-06-14 10:08:40,680 [main] INFO  o.a.k.c.consumer.ConsumerConfig 376 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10000-10010:10000-10010]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-metersphere_group_id-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = metersphere_group_id
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-06-14 10:08:40,856 [main] INFO  o.a.kafka.common.metrics.Metrics 659 - Metrics scheduler closed
+2022-06-14 10:08:40,857 [main] INFO  o.a.kafka.common.metrics.Metrics 663 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-06-14 10:08:40,858 [main] INFO  o.a.kafka.common.metrics.Metrics 669 - Metrics reporters closed
+2022-06-14 10:08:40,862 [main] INFO  o.a.kafka.common.utils.AppInfoParser 83 - App info kafka.consumer for consumer-metersphere_group_id-1 unregistered
+2022-06-14 10:08:40,864 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'; nested exception is org.apache.kafka.common.KafkaException: Failed to construct kafka consumer
+2022-06-14 10:08:40,891 [main] INFO  org.eclipse.jetty.server.session ? - node0 Stopped scavenging
+2022-06-14 10:08:40,897 [main] INFO  o.e.j.server.handler.ContextHandler ? - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@f03ee8f{application,/,[file:///tmp/jetty-docbase.8084.7616578234140576446/],STOPPED}
+2022-06-14 10:08:44,348 [main] INFO  io.metersphere.streaming.Application ? - Starting Application using Java 11.0.14 on d4331252f303 with PID 1 (/app started by root in /deployments)
+2022-06-14 10:08:44,357 [main] INFO  io.metersphere.streaming.Application ? - No active profile set, falling back to 1 default profile: "default"
+2022-06-14 10:08:49,096 [main] INFO  org.eclipse.jetty.util.log ? - Logging initialized @7235ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-06-14 10:08:49,614 [main] INFO  o.s.b.w.e.j.JettyServletWebServerFactory 166 - Server initialized with port: 8084
+2022-06-14 10:08:49,621 [main] INFO  org.eclipse.jetty.server.Server ? - jetty-9.4.46.v20220331; built: 2022-03-31T16:38:08.030Z; git: bc17a0369a11ecf40bb92c839b9ef0a8ac50ea18; jvm 11.0.14+9-alpine-r0
+2022-06-14 10:08:49,719 [main] INFO  o.e.j.s.h.ContextHandler.application ? - Initializing Spring embedded WebApplicationContext
+2022-06-14 10:08:49,720 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 290 - Root WebApplicationContext: initialization completed in 4497 ms
+2022-06-14 10:08:50,368 [main] INFO  org.eclipse.jetty.server.session 334 - DefaultSessionIdManager workerName=node0
+2022-06-14 10:08:50,369 [main] INFO  org.eclipse.jetty.server.session 339 - No SessionScavenger set, using defaults
+2022-06-14 10:08:50,371 [main] INFO  org.eclipse.jetty.server.session ? - node0 Scavenging every 660000ms
+2022-06-14 10:08:50,396 [main] INFO  o.e.j.server.handler.ContextHandler 921 - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@629b780f{application,/,[file:///tmp/jetty-docbase.8084.5058592874963105604/],AVAILABLE}
+2022-06-14 10:08:50,397 [main] INFO  org.eclipse.jetty.server.Server 415 - Started @8540ms
+2022-06-14 10:08:50,584 [main] INFO  i.m.s.service.TestResultService ? - Method[<clinit>][Temp dir: /tmp]
+2022-06-14 10:08:54,983 [main] WARN  o.s.b.a.g.t.GroovyTemplateAutoConfiguration 86 - Cannot find template location: classpath:/templates/ (please add some templates, check your Groovy configuration, or set spring.groovy.template.check-template-location=false)
+2022-06-14 10:08:56,739 [main] INFO  o.a.k.c.admin.AdminClientConfig 376 - AdminClientConfig values: 
+	bootstrap.servers = [10000-10010:10000-10010]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2022-06-14 10:08:56,849 [main] ERROR o.s.kafka.core.KafkaAdmin 149 - Could not create admin
+org.apache.kafka.common.KafkaException: Failed to create new KafkaAdminClient
+	at org.apache.kafka.clients.admin.KafkaAdminClient.createInternal(KafkaAdminClient.java:537)
+	at org.apache.kafka.clients.admin.Admin.create(Admin.java:143)
+	at org.apache.kafka.clients.admin.AdminClient.create(AdminClient.java:49)
+	at org.springframework.kafka.core.KafkaAdmin.createAdmin(KafkaAdmin.java:228)
+	at org.springframework.kafka.core.KafkaAdmin.initialize(KafkaAdmin.java:166)
+	at org.springframework.kafka.core.KafkaAdmin.afterSingletonsInstantiated(KafkaAdmin.java:145)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:972)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at io.metersphere.streaming.Application.main(Application.java:23)
+Caused by: org.apache.kafka.common.config.ConfigException: Invalid url in bootstrap.servers: 10000-10010:10000-10010
+	at org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses(ClientUtils.java:59)
+	at org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses(ClientUtils.java:48)
+	at org.apache.kafka.clients.admin.KafkaAdminClient.createInternal(KafkaAdminClient.java:489)
+	... 15 common frames omitted
+2022-06-14 10:08:56,939 [main] INFO  o.a.k.c.consumer.ConsumerConfig 376 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10000-10010:10000-10010]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-metersphere_group_id-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = metersphere_group_id
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-06-14 10:08:57,078 [main] INFO  o.a.kafka.common.metrics.Metrics 659 - Metrics scheduler closed
+2022-06-14 10:08:57,079 [main] INFO  o.a.kafka.common.metrics.Metrics 663 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-06-14 10:08:57,080 [main] INFO  o.a.kafka.common.metrics.Metrics 669 - Metrics reporters closed
+2022-06-14 10:08:57,084 [main] INFO  o.a.kafka.common.utils.AppInfoParser 83 - App info kafka.consumer for consumer-metersphere_group_id-1 unregistered
+2022-06-14 10:08:57,086 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'; nested exception is org.apache.kafka.common.KafkaException: Failed to construct kafka consumer
+2022-06-14 10:08:57,136 [main] INFO  org.eclipse.jetty.server.session ? - node0 Stopped scavenging
+2022-06-14 10:08:57,140 [main] INFO  o.e.j.server.handler.ContextHandler 1159 - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@629b780f{application,/,[file:///tmp/jetty-docbase.8084.5058592874963105604/],STOPPED}
