@@ -31,5 +31,3 @@ workspace:
         - 8080:8080
         - 6822:22
         - 6800:8887
-      networks:
-        - smartide-network
