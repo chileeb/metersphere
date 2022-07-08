@@ -8,7 +8,7 @@ workspace:
     ports:
       tools-webide-idea: 6800
       tools-ssh: 6822
-      apps-metersphere: 8080
+      apps-metersphere: 8081
     ide-type: jb-projector
     volumes:
       git-config: true
@@ -28,6 +28,6 @@ workspace:
         - ./.ide/opt/metersphere:/opt/metersphere
         - $HOME/.m2/repository:/home/smartide/.m2/repository
       ports:
-        - 8080:8080
+        - 8081:8081
         - 6822:22
         - 6800:8887
